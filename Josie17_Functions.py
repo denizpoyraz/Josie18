@@ -81,7 +81,7 @@ def Calc_average_profile(dataframe, ybin, xcolumn):
         dfgrid['X'] = dftmp1[filterall].X
 
         #print('len of dfgrid ', len(dfgrid))
-        #print(i, dfgrid.X)
+        print(i, dfgrid.X)
         Xgrid[i] = np.mean(dfgrid.X)
         Xsigma[i] = np.std(dfgrid.X)
         #print(i , ' X ' ,Xgrid[i], " Xerr ", Xsigma[i])
